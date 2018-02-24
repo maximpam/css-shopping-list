@@ -1,0 +1,77 @@
+*
+{
+	margin: 0;
+	transition: all .1s ease-in;
+	font-family: Trebuchet MSФ, Trebuchet, Arial, sans-serif;
+}
+body {
+	background-color: #3B3F45;
+}
+ 
+
+header {
+	color: #EA7E7F;
+	text-align: center;
+	background-color: #4A4F56;
+	
+}
+div{
+    background: #88839E; /* ÷вет фона */
+   	margin: 40px auto;
+   	width: 60%;
+   	color: white;
+}
+p {
+	display: block;
+	height: 40px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+p:nth-of-type(2n){
+
+	background: #7A7593;
+}
+
+label {
+	font-size: 20px;
+}
+
+em{
+	font-size: small;
+}
+
+p:hover{
+ 
+ border: 0px solid white;
+ border-top-width: 3px;
+ border-bottom-width: 3px;
+
+}
+
+input{
+	
+margin-right: 8px;
+}
+
+input:checked + label{
+	text-decoration: line-through;
+
+}
+
+
+.submit-button {
+    height:80px;
+    width:100%;
+    margin:auto;
+    color: #EB7E7F;
+     border: none;
+     font-size: 32px;
+     font-family: Trebuchet MS;
+    text-align:center;
+  background-color: #4A4F56
+}
+
+.submit-button:active {
+  border: 3px solid white;
+}
